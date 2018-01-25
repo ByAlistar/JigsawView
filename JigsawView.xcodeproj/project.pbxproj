@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82FDFE42019D65D0085FDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FDFE32019D65D0085FDDB /* AppDelegate.m */; };
+		D82FDFE72019D65D0085FDDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FDFE62019D65D0085FDDB /* ViewController.m */; };
+		D82FDFEA2019D65D0085FDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82FDFE82019D65D0085FDDB /* Main.storyboard */; };
+		D82FDFEC2019D65D0085FDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82FDFEB2019D65D0085FDDB /* Assets.xcassets */; };
+		D82FDFEF2019D65D0085FDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82FDFED2019D65D0085FDDB /* LaunchScreen.storyboard */; };
+		D82FDFF22019D65D0085FDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FDFF12019D65D0085FDDB /* main.m */; };
+		D82FDFFC2019D65D0085FDDB /* JigsawViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FDFFB2019D65D0085FDDB /* JigsawViewTests.m */; };
+		D82FE0072019D65D0085FDDB /* JigsawViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FE0062019D65D0085FDDB /* JigsawViewUITests.m */; };
+		D82FE0192019D6680085FDDB /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D82FE0142019D6680085FDDB /* avatar.png */; };
+		D82FE0212019D6B20085FDDB /* CALayerJigsaw.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FE01E2019D6B20085FDDB /* CALayerJigsaw.m */; };
+		D82FE0222019D6B20085FDDB /* SlideAuthView_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D82FE0202019D6B20085FDDB /* SlideAuthView_iPhone.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82FDFF82019D65D0085FDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82FDFD72019D65D0085FDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82FDFDE2019D65D0085FDDB;
+			remoteInfo = JigsawView;
+		};
+		D82FE0032019D65D0085FDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82FDFD72019D65D0085FDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82FDFDE2019D65D0085FDDB;
+			remoteInfo = JigsawView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D82FDFDF2019D65D0085FDDB /* JigsawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82FDFE22019D65D0085FDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D82FDFE32019D65D0085FDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D82FDFE52019D65D0085FDDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D82FDFE62019D65D0085FDDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D82FDFE92019D65D0085FDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82FDFEB2019D65D0085FDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D82FDFEE2019D65D0085FDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D82FDFF02019D65D0085FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82FDFF12019D65D0085FDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D82FDFF72019D65D0085FDDB /* JigsawViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigsawViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82FDFFB2019D65D0085FDDB /* JigsawViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JigsawViewTests.m; sourceTree = "<group>"; };
+		D82FDFFD2019D65D0085FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82FE0022019D65D0085FDDB /* JigsawViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigsawViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82FE0062019D65D0085FDDB /* JigsawViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JigsawViewUITests.m; sourceTree = "<group>"; };
+		D82FE0082019D65D0085FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82FE0142019D6680085FDDB /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		D82FE01D2019D6B20085FDDB /* CALayerJigsaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerJigsaw.h; sourceTree = "<group>"; };
+		D82FE01E2019D6B20085FDDB /* CALayerJigsaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerJigsaw.m; sourceTree = "<group>"; };
+		D82FE01F2019D6B20085FDDB /* SlideAuthView_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideAuthView_iPhone.h; sourceTree = "<group>"; };
+		D82FE0202019D6B20085FDDB /* SlideAuthView_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideAuthView_iPhone.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82FDFDC2019D65D0085FDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82FDFF42019D65D0085FDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82FDFFF2019D65D0085FDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82FDFD62019D65D0085FDDB = {
+			isa = PBXGroup;
+			children = (
+				D82FDFE12019D65D0085FDDB /* JigsawView */,
+				D82FDFFA2019D65D0085FDDB /* JigsawViewTests */,
+				D82FE0052019D65D0085FDDB /* JigsawViewUITests */,
+				D82FDFE02019D65D0085FDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82FDFE02019D65D0085FDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82FDFDF2019D65D0085FDDB /* JigsawView.app */,
+				D82FDFF72019D65D0085FDDB /* JigsawViewTests.xctest */,
+				D82FE0022019D65D0085FDDB /* JigsawViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82FDFE12019D65D0085FDDB /* JigsawView */ = {
+			isa = PBXGroup;
+			children = (
+				D82FE01C2019D6B20085FDDB /* Jigsaw */,
+				D82FDFE22019D65D0085FDDB /* AppDelegate.h */,
+				D82FDFE32019D65D0085FDDB /* AppDelegate.m */,
+				D82FDFE52019D65D0085FDDB /* ViewController.h */,
+				D82FDFE62019D65D0085FDDB /* ViewController.m */,
+				D82FE0142019D6680085FDDB /* avatar.png */,
+				D82FDFE82019D65D0085FDDB /* Main.storyboard */,
+				D82FDFEB2019D65D0085FDDB /* Assets.xcassets */,
+				D82FDFED2019D65D0085FDDB /* LaunchScreen.storyboard */,
+				D82FDFF02019D65D0085FDDB /* Info.plist */,
+				D82FDFF12019D65D0085FDDB /* main.m */,
+			);
+			path = JigsawView;
+			sourceTree = "<group>";
+		};
+		D82FDFFA2019D65D0085FDDB /* JigsawViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D82FDFFB2019D65D0085FDDB /* JigsawViewTests.m */,
+				D82FDFFD2019D65D0085FDDB /* Info.plist */,
+			);
+			path = JigsawViewTests;
+			sourceTree = "<group>";
+		};
+		D82FE0052019D65D0085FDDB /* JigsawViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D82FE0062019D65D0085FDDB /* JigsawViewUITests.m */,
+				D82FE0082019D65D0085FDDB /* Info.plist */,
+			);
+			path = JigsawViewUITests;
+			sourceTree = "<group>";
+		};
+		D82FE01C2019D6B20085FDDB /* Jigsaw */ = {
+			isa = PBXGroup;
+			children = (
+				D82FE01D2019D6B20085FDDB /* CALayerJigsaw.h */,
+				D82FE01E2019D6B20085FDDB /* CALayerJigsaw.m */,
+				D82FE01F2019D6B20085FDDB /* SlideAuthView_iPhone.h */,
+				D82FE0202019D6B20085FDDB /* SlideAuthView_iPhone.m */,
+			);
+			path = Jigsaw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82FDFDE2019D65D0085FDDB /* JigsawView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82FE00B2019D65D0085FDDB /* Build configuration list for PBXNativeTarget "JigsawView" */;
+			buildPhases = (
+				D82FDFDB2019D65D0085FDDB /* Sources */,
+				D82FDFDC2019D65D0085FDDB /* Frameworks */,
+				D82FDFDD2019D65D0085FDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigsawView;
+			productName = JigsawView;
+			productReference = D82FDFDF2019D65D0085FDDB /* JigsawView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82FDFF62019D65D0085FDDB /* JigsawViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82FE00E2019D65D0085FDDB /* Build configuration list for PBXNativeTarget "JigsawViewTests" */;
+			buildPhases = (
+				D82FDFF32019D65D0085FDDB /* Sources */,
+				D82FDFF42019D65D0085FDDB /* Frameworks */,
+				D82FDFF52019D65D0085FDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82FDFF92019D65D0085FDDB /* PBXTargetDependency */,
+			);
+			name = JigsawViewTests;
+			productName = JigsawViewTests;
+			productReference = D82FDFF72019D65D0085FDDB /* JigsawViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D82FE0012019D65D0085FDDB /* JigsawViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82FE0112019D65D0085FDDB /* Build configuration list for PBXNativeTarget "JigsawViewUITests" */;
+			buildPhases = (
+				D82FDFFE2019D65D0085FDDB /* Sources */,
+				D82FDFFF2019D65D0085FDDB /* Frameworks */,
+				D82FE0002019D65D0085FDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82FE0042019D65D0085FDDB /* PBXTargetDependency */,
+			);
+			name = JigsawViewUITests;
+			productName = JigsawViewUITests;
+			productReference = D82FE0022019D65D0085FDDB /* JigsawViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82FDFD72019D65D0085FDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Malcome;
+				TargetAttributes = {
+					D82FDFDE2019D65D0085FDDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D82FDFF62019D65D0085FDDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D82FDFDE2019D65D0085FDDB;
+					};
+					D82FE0012019D65D0085FDDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D82FDFDE2019D65D0085FDDB;
+					};
+				};
+			};
+			buildConfigurationList = D82FDFDA2019D65D0085FDDB /* Build configuration list for PBXProject "JigsawView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82FDFD62019D65D0085FDDB;
+			productRefGroup = D82FDFE02019D65D0085FDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82FDFDE2019D65D0085FDDB /* JigsawView */,
+				D82FDFF62019D65D0085FDDB /* JigsawViewTests */,
+				D82FE0012019D65D0085FDDB /* JigsawViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82FDFDD2019D65D0085FDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82FE0192019D6680085FDDB /* avatar.png in Resources */,
+				D82FDFEF2019D65D0085FDDB /* LaunchScreen.storyboard in Resources */,
+				D82FDFEC2019D65D0085FDDB /* Assets.xcassets in Resources */,
+				D82FDFEA2019D65D0085FDDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82FDFF52019D65D0085FDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82FE0002019D65D0085FDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82FDFDB2019D65D0085FDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82FE0222019D6B20085FDDB /* SlideAuthView_iPhone.m in Sources */,
+				D82FE0212019D6B20085FDDB /* CALayerJigsaw.m in Sources */,
+				D82FDFE72019D65D0085FDDB /* ViewController.m in Sources */,
+				D82FDFF22019D65D0085FDDB /* main.m in Sources */,
+				D82FDFE42019D65D0085FDDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82FDFF32019D65D0085FDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82FDFFC2019D65D0085FDDB /* JigsawViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82FDFFE2019D65D0085FDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82FE0072019D65D0085FDDB /* JigsawViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82FDFF92019D65D0085FDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82FDFDE2019D65D0085FDDB /* JigsawView */;
+			targetProxy = D82FDFF82019D65D0085FDDB /* PBXContainerItemProxy */;
+		};
+		D82FE0042019D65D0085FDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82FDFDE2019D65D0085FDDB /* JigsawView */;
+			targetProxy = D82FE0032019D65D0085FDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D82FDFE82019D65D0085FDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82FDFE92019D65D0085FDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D82FDFED2019D65D0085FDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82FDFEE2019D65D0085FDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82FE0092019D65D0085FDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D82FE00A2019D65D0085FDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82FE00C2019D65D0085FDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HY.JigsawView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D82FE00D2019D65D0085FDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HY.JigsawView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D82FE00F2019D65D0085FDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HY.JigsawViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigsawView.app/JigsawView";
+			};
+			name = Debug;
+		};
+		D82FE0102019D65D0085FDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HY.JigsawViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigsawView.app/JigsawView";
+			};
+			name = Release;
+		};
+		D82FE0122019D65D0085FDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HY.JigsawViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JigsawView;
+			};
+			name = Debug;
+		};
+		D82FE0132019D65D0085FDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HY.JigsawViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JigsawView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82FDFDA2019D65D0085FDDB /* Build configuration list for PBXProject "JigsawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82FE0092019D65D0085FDDB /* Debug */,
+				D82FE00A2019D65D0085FDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82FE00B2019D65D0085FDDB /* Build configuration list for PBXNativeTarget "JigsawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82FE00C2019D65D0085FDDB /* Debug */,
+				D82FE00D2019D65D0085FDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82FE00E2019D65D0085FDDB /* Build configuration list for PBXNativeTarget "JigsawViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82FE00F2019D65D0085FDDB /* Debug */,
+				D82FE0102019D65D0085FDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82FE0112019D65D0085FDDB /* Build configuration list for PBXNativeTarget "JigsawViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82FE0122019D65D0085FDDB /* Debug */,
+				D82FE0132019D65D0085FDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82FDFD72019D65D0085FDDB /* Project object */;
+}

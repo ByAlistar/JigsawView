@@ -3,4 +3,4 @@
  
 手指触摸滑块显示拼图，离开则隐藏拼图
 
-![image](https://github.com/363001950@qq.com/JigsawView/Jigsaw.gif)
+![image](https://github.com/363001950@qq.com/JigsawView/blob/master/Jigsaw.gif)
